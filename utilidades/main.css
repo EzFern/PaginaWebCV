@@ -2043,7 +2043,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("imagenes/transparencia.png");
+			background: url("imagenes/transparencia.png"); url("../../PaginaWebCV/imagenes/transparencia.png");
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2088,7 +2088,7 @@ input, select, textarea {
 			}
 
 			.image.thumb:hover:before {
-				background: url("images/overlay.png"), url("images/overlay.png");
+				background: url("imagenes/transparencia.png"), url("../../PaginaWebCV/imagenes/transparencia.png");
 				opacity: 1.0;
 			}
 
@@ -3072,7 +3072,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-image: url("imagenes/transparencia.png"), url("../../PaginaWebCV/imagenes/fondo.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
