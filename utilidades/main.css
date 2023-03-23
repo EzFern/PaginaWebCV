@@ -20,6 +20,32 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: gray;
+}
+
 body {
 	line-height: 1;
 }
@@ -1749,6 +1775,44 @@ input, select, textarea {
 
 		}
 
+/* Menu */
+#menu {
+  background: rgba(1,15,24);
+  margin-left: 35%;
+  right: 0px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 1px; 
+}
+
+nav ul li {
+  float: left;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: gray;
+}
+
 /* Secion/Artículo */
 
 	section.special, article.special {
@@ -1757,7 +1821,6 @@ input, select, textarea {
 
 	header p {
 		color: #b2b2b2;
-		position: relative;
 		margin: 0 0 1.5em 0;
 	}
 
@@ -2559,6 +2622,7 @@ input, select, textarea {
 		text-align: left;
 		top: 0;
 		width: 35%;
+		z-index: 200;
 	}
 
 		#header > * {
